@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/jaithecore/modest-clarke-mll45y',
+    basePath: '/modest-clarke-mll45y',
     output: "export"
 }
 
