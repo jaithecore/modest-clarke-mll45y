@@ -3,7 +3,7 @@ const nextConfig = {
     basePath: '/modest-clarke-mll45y',
     //output: "export",
     async redirects() {
-        if (BASE_URL) {
+        if (true) {
           return [
             {
               source: "/",
