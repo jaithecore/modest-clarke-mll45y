@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     basePath: '/modest-clarke-mll45y',
-    output: "export",
+    //output: "export",
     async redirects() {
         if (BASE_URL) {
           return [
