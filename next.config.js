@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/modest-clarke-mll45y',
+    basePath: '/repo',
     //output: "export",
     async redirects() {
         if (true) {
           return [
             {
               source: "/",
-              destination: "/modest-clarke-mll45y",
+              destination: "/repo",
               basePath: false,
               permanent: false,
             },
