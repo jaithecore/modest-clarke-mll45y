@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/repo',
+    basePath: '',
     //output: "export",
     async redirects() {
         if (true) {
           return [
             {
               source: "/",
-              destination: "/repo",
+              destination: "",
               basePath: false,
               permanent: false,
             },
